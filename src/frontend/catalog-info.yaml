@@ -14,3 +14,7 @@ spec:
   lifecycle: development
   owner: platform-team
   system: astronomy-shop
+
+  dependsOn:
+    - component:default/product-catalog
+    - component:default/recommendation
