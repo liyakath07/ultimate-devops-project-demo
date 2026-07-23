@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+
+metadata:
+  name: astronomy-shop
+  title: OpenTelemetry Astronomy Shop
+  description: Microservice based distributed application used for OpenTelemetry demonstrations.
+
+spec:
+  owner: platform-team
+  domain: default
