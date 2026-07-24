@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+
+metadata:
+  name: product-catalog-api
+  title: Product Catalog API
+  description: gRPC API exposed by the Product Catalog service.
+
+spec:
+  type: grpc
+  lifecycle: development
+  owner: platform-team
+  system: astronomy-shop
+
+  definition: |
+    Product Catalog gRPC API
