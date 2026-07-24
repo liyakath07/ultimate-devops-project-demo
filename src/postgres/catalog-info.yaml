@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+
+metadata:
+  name: postgres-db
+  title: PostgreSQL Database
+  description: Primary database for the Astronomy Shop.
+
+  annotations:
+    github.com/project-slug: liyakath07/ultimate-devops-project-demo
+
+spec:
+  type: database
+  owner: platform-team
+  system: astronomy-shop
