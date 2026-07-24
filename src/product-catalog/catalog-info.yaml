@@ -16,3 +16,6 @@ spec:
   system: astronomy-shop
   providesApis:
     - product-catalog-api
+  dependsOn:
+    - resource:default/postgres-db
+    
