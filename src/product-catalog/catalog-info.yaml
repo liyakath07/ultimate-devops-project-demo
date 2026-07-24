@@ -14,3 +14,5 @@ spec:
   lifecycle: development
   owner: platform-team
   system: astronomy-shop
+  providesApis:
+    - product-catalog-api
