@@ -18,3 +18,6 @@ spec:
   dependsOn:
     - component:default/product-catalog
     - component:default/recommendation
+
+  consumesApis:
+  - product-catalog-api
