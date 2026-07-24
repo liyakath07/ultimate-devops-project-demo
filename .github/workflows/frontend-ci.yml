@@ -29,4 +29,5 @@ jobs:
           docker build \
             -t frontend:${{ github.sha }} \
             -f src/frontend/Dockerfile \
-            src/frontend
+            .
+  
